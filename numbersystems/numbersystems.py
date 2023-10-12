@@ -74,7 +74,7 @@ class Value:
         return len(self._alphabet)
 
     def __repr__(self):
-        return f"value: {self._int_value_2_str_value()}\ndecimal_value: {self._int_value}\n{self.base}\nalphabet: '{self._alphabet}'"
+        return f"value: {self._int_value_2_str_value()}\ndecimal_value: {self._int_value}\nbase: {self.base}\nalphabet: '{self._alphabet}'"
 
     def __int__(self):
         return self._int_value

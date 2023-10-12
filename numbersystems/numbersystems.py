@@ -114,7 +114,3 @@ class Value:
 
     def __pow__(self, other):
         return Value(int(self) ** int(other), self.base)
-
-
-if __name__ == "__main__":
-    pub_key = Value("751e76e8199196d454941c45d1b3a323f1433bd6", 16)
